@@ -4423,7 +4423,6 @@ textarea.form-control {
   .presentation-page .section-icons .icons-nucleo .nc-icon:not(.ninth-left-icon):not(.seventh-left-icon):not(.third-left-icon) {
     display: none !important;
   }
-}
 @media screen and (max-width: 991px) {
   .navbar-collapse {
     position: fixed;
@@ -7264,29 +7263,3 @@ License - nucleoapp.com/license/
 .nc-zoom-split::before {
     content: "\ea64";
 }
-
-.loading{
-    width:100px;
-    height:100px;
-    border-radius:150px;
-    border:15px solid #fff;
-    border-top-color:rgba(0,0,0,0.3);
-    box-sizing:border-box;
-    position:absolute;
-    top:35%;left:52%;
-    margin-top:-80px;
-    margin-left:-80px;
-    animation:loading 1.2s linear infinite;
-    -webkit-animation:loading 1.2s linear infinite;
-  }
-  @keyframes loading{
-    0%{transform:rotate(0deg)}
-    100%{transform:rotate(360deg)}
-  }
-  @-webkit-keyframes loading{
-    0%{-webkit-transform:rotate(0deg)}
-    100%{-webkit-transform:rotate(360deg)}
-  }
-  
-  html{height:100%;}
-  body {background:#000;background:linear-gradient(#7D57C9, rgba(0, 0, 0, 0) 90%), linear-gradient(-45deg, #4DA2D6 25%, #000 75%) !important;background:-webkit-linear-gradient(#7D57C9, rgba(0, 0, 0, 0) 90%), -webkit-linear-gradient(-45deg, #4DA2D6 25%, #000 75%) !important;}
